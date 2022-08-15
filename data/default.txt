@@ -1,1 +1,3 @@
-
+## Datasource used in the application
+The data file is take from Kaggle - https://www.kaggle.com/code/danofer/ecommerce-store-predict-purchases-data-prep/data?select=2019-Oct.csv
+The file contains the ecommerce store shopping user behavior data (October 2019) from a large multi-category online store. 
