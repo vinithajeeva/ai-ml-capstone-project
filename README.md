@@ -37,16 +37,16 @@ In the intial analysis, association rules and SURPRISE models were used and iden
 The following Ensemble Models along with GridSearchCV() were used in this application,
 1. LogisticRegression() - for baseline prediction
 2. Boosting Classifiers
->2.1 AdaBoostClassifier()
->2.2 GradientBoostingClassifier()
->2.3 XGBClassifier()
->2.4 HistGradientBoostingClassifier()
+  - 2.1 AdaBoostClassifier()
+  - 2.2 GradientBoostingClassifier()
+  - 2.3 XGBClassifier()
+  - 2.4 HistGradientBoostingClassifier()
 3. Bagging Classifiers
->3.1 DecisionTreeClassifier()
->3.2 ExtraTreeClassifier()
+  - 3.1 DecisionTreeClassifier()
+  - 3.2 ExtraTreeClassifier()
 4. VotingClassifier
->4.1 HardVoting
->4.2 SoftVoting
+  - 4.1 HardVoting
+  - 4.2 SoftVoting
 5. StackingClassifier
 
 ## Conclusion
@@ -69,13 +69,11 @@ For more details on the explainer dashboard reports are availabel in the 'Explai
 3. Adding Merchant Catalog or Coupon information will further enhance the recommendation of coupons to the users as well as improves revenue generation for the merchants
 
 ## Content
-| Folder | Description |
-| --- | --- |
-| /Explainer Dashboard | Folder contains the explainer dashboard files of Bagging DecisionTreeClassifer() |
-| /data | Folder contains the stratified shopping data |
-| /notebook | Folder contains the EDA, Modeling and Explainer Dashboard notebooks |
-| Shopping Coupon Recommendation using Ensemble Models - Read Out | Sumamry and Final Readout file of the Capstone Project Analysis |
-| README.md | this readme file |
+* /Explainer Dashboard --------------------------------------------- | Folder contains the explainer dashboard files of Bagging DecisionTreeClassifer() |
+* /data                --------------------------------------------- | Folder contains the stratified shopping data |
+* /notebook            --------------------------------------------- | Folder contains the EDA, Modeling and Explainer Dashboard notebooks |
+* Shopping Coupon Recommendation using Ensemble Models - Read Out -- | Sumamry and Final Readout file of the Capstone Project Analysis |
+* README.md            --------------------------------------------- | this readme file |
 
 ## Requirements
 1. This project is implemented with Python 3.7.13
