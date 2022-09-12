@@ -37,7 +37,7 @@ In the intial analysis, association rules and SURPRISE models were used and iden
 The following Ensemble Models along with GridSearchCV() were used in this application,
 1. LogisticRegression() - for baseline prediction
 2. Boosting Classifiers
-  2.1 AdaBoostClassifier()
+  - 2.1 AdaBoostClassifier()
   - 2.2 GradientBoostingClassifier()
   - 2.3 XGBClassifier()
   - 2.4 HistGradientBoostingClassifier()
