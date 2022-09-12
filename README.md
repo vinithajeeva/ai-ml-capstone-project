@@ -69,11 +69,13 @@ For more details on the explainer dashboard reports are availabel in the 'Explai
 3. Adding Merchant Catalog or Coupon information will further enhance the recommendation of coupons to the users as well as improves revenue generation for the merchants
 
 ## Content
-* /Explainer Dashboard                                              # Folder contains the explainer dashboard files of Bagging DecisionTreeClassifer()
-* /data                                                             # Folder contains the stratified shopping data
-* /notebook                                                         # Folder contains the EDA, Modeling and Explainer Dashboard notebooks
-* Shopping Coupon Recommendation using Ensemble Models - Read Out   # Sumamry and Final Readout file of the Capstone Project Analysis
-* README.md                                                         # this readme file
+| Folder | Description |
+| --- | --- |
+| /Explainer Dashboard | Folder contains the explainer dashboard files of Bagging DecisionTreeClassifer() |
+| /data | Folder contains the stratified shopping data |
+| /notebook | Folder contains the EDA, Modeling and Explainer Dashboard notebooks |
+| Shopping Coupon Recommendation using Ensemble Models - Read Out | Sumamry and Final Readout file of the Capstone Project Analysis |
+| README.md | this readme file |
 
 ## Requirements
 1. This project is implemented with Python 3.7.13
