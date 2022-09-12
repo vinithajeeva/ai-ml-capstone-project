@@ -1,4 +1,4 @@
-# Capstone Project - Shopping Coupon Recommendations
+# Capstone Project - Shopping Coupon Recommendation using Ensemble Models
 In this captsone project, a customer ecommerce shooping transaction data from Kaggle is used to evaluate data and compare the performance of recommendation models using Surprise library. 
 
 ## Business Objectives
