@@ -12,7 +12,7 @@ The dataset comes from the Kaggle data repository (https://www.kaggle.com/code/d
 Each row in the file represents an user event. All events are related to products and users. There are different types of events.
 - event_time: Time when event happened at (in UTC). Converted to 'Shopping_time'
 - event_type: Typical funnel: view => cart => purchase
-- >view - a user viewed a product
+- >>view - a user viewed a product
 - >cart - a user added a product to shopping cart
 - >purchase - a user purchased a product
 - product_id: ID of a product (dropped)
