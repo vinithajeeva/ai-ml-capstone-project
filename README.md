@@ -12,9 +12,9 @@ The dataset comes from the Kaggle data repository (https://www.kaggle.com/code/d
 Each row in the file represents an user event. All events are related to products and users. There are different types of events.
 - event_time: Time when event happened at (in UTC). Converted to 'Shopping_time'
 - event_type: Typical funnel: view => cart => purchase
--- view - a user viewed a product
--- cart - a user added a product to shopping cart
--- purchase - a user purchased a product
+- >view - a user viewed a product
+- >cart - a user added a product to shopping cart
+- >purchase - a user purchased a product
 - product_id: ID of a product (dropped)
 - category_id: Product's category ID (dropped)
 - category_code: multi-hierarchical name of Product's category
@@ -37,16 +37,16 @@ In the intial analysis, association rules and SURPRISE models were used and iden
 The following Ensemble Models along with GridSearchCV() were used in this application,
 1. LogisticRegression() - for baseline prediction
 2. Boosting Classifiers
-2.1 AdaBoostClassifier()
-2.2 GradientBoostingClassifier()
-2.3 XGBClassifier()
-2.4 HistGradientBoostingClassifier()
+>2.1 AdaBoostClassifier()
+>2.2 GradientBoostingClassifier()
+>2.3 XGBClassifier()
+>2.4 HistGradientBoostingClassifier()
 3. Bagging Classifiers
-3.1 DecisionTreeClassifier()
-3.2 ExtraTreeClassifier()
+>3.1 DecisionTreeClassifier()
+>3.2 ExtraTreeClassifier()
 4. VotingClassifier
-4.1 HardVoting
-4.2 SoftVoting
+>4.1 HardVoting
+>4.2 SoftVoting
 5. StackingClassifier
 
 ## Conclusion
