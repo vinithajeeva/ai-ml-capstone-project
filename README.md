@@ -56,7 +56,7 @@ Used the ClassifierExplainer() to quickly building interactive dashboards for an
 ###### Feature Importance
 ![image](https://user-images.githubusercontent.com/102641103/189556571-252ae61b-98a9-483d-8294-64c175b3c1cc.png)
 ###### Confusion Matrix
-![image](https://user-images.githubusercontent.com/102641103/184792668-047a0a7f-0918-4714-b423-787d07fee661.png)
+![image](https://user-images.githubusercontent.com/102641103/189557675-61d44b06-637b-4023-905e-30fbaada57c5.png)
 ###### Perfomance Metrics
 ![image](https://user-images.githubusercontent.com/102641103/189556719-21fcb481-cc67-47c6-a11a-037cb27ff2e8.png)
 For more details on the explainer dashboard reports are availabel in the 'Explainer Dashboard' (https://github.com/vinithajeeva/ai-ml-capstone-project/tree/main/Explainer%20Dashboard) folder of this GitHub Repository.
