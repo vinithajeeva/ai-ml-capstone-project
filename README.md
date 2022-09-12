@@ -28,6 +28,7 @@ Since the dataset is large, used **Stratification** to sample the data for this 
 
 ## Feature Importance/ Selection
 Used RandomForestRegressor() on 'price' as target feature for this analysis. Between 'coupon' and 'event_type' classifier columns, 'coupon' is selected.
+
 ![image](https://user-images.githubusercontent.com/102641103/189555390-181bf8a1-cf98-469a-a677-b3a749a6e622.png)
 
 ## Recommendation Models Used
@@ -36,16 +37,16 @@ In the intial analysis, association rules and SURPRISE models were used and iden
 The following Ensemble Models along with GridSearchCV() were used in this application,
 1. LogisticRegression() - for baseline prediction
 2. Boosting Classifiers
-2.1. AdaBoostClassifier()
-2.2. GradientBoostingClassifier()
-2.3. XGBClassifier()
-2.4. HistGradientBoostingClassifier()
+2.1 AdaBoostClassifier()
+2.2 GradientBoostingClassifier()
+2.3 XGBClassifier()
+2.4 HistGradientBoostingClassifier()
 3. Bagging Classifiers
 3.1 DecisionTreeClassifier()
 3.2 ExtraTreeClassifier()
 4. VotingClassifier
-4.1. HardVoting
-4.2. SoftVoting
+4.1 HardVoting
+4.2 SoftVoting
 5. StackingClassifier
 
 ## Conclusion
